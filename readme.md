@@ -4,6 +4,7 @@
 Ce repository inclut un dossier qui contient les scripts en language Scala du projet, notamment :
 - Deux classes, l'une permettant d'instancier les tondeuses et leurs différentes possibilités d'action, l'autre le gazon.
 - Le code principal permettant de déterminer les positions d'arrivées des tondeuses instanciées sur le gazon à partir d'instructions de mouvement effectuées par les tondeuses.
+
 ## Introduction
 Il s'agit de mettre en pratique nos connaissances générales en programmation sous Scala notamment la création d'objet et de classes, l'utilisation d'input via des sources externes ou encore l'utilisation des fonctions.
 
@@ -14,8 +15,8 @@ Nous avons crée deux classes Scala, la première classe nommée "Coordonnées" 
 Nous avons crée une seconde classe, nommée tondeuse_instance qui permet :
 - D'instancier nos tondeuses, on peut instancier le nombre de tondeuses que l'on souhaite, c'est l'avantage des classes, il faut pour cela deux d'integer qui correspondent à sa position initiale sur le gazon ainsi que son orientation initiale ce qui permet de former un couple `(x,y)` de coordonnées cartésiennes
 - De construire les possibilités de mouvement, notamment la possibilités de changer de direction (Gauche ou Droite) ou d'avancer (Avancer)
-- Pour lui donner l'ordre d'avancer, la tondeuse doit recevoir l'instruction `A`, elle avance alors dans la direction vers laquelle elle est orientée 
-- Pour lui donner l'ordre de modifier son orientation à 90° vers la gauche et vers la droite, elle doit recevoir respectivement les instructions `G` et `D`. Les orientations suivent l'écriture anglosaxonne  `(N,E,W,S)`
+  - Pour lui donner l'ordre d'avancer, la tondeuse doit recevoir l'instruction `A`, elle avance alors dans la direction vers laquelle elle est orientée 
+  - Pour lui donner l'ordre de modifier son orientation à 90° vers la gauche et vers la droite, elle doit recevoir respectivement les instructions `G` et `D`. Les orientations suivent l'écriture anglosaxonne  `(N,E,W,S)`
 
 Nous avons créé un code principal permettant d'effectuer un traitement sur nos tondeuses :
 - Le code principal nommé "Code" permet le traitement sur nos tondeuses, il nécéssite un input contenant : 
@@ -30,10 +31,10 @@ Pour programmer la tondeuse, on peut lui fournir un input (fichier texte notamme
 du coin inférieur gauche sont supposées être (0,0) à l'image d'un plan cartésien
 * La suite du fichier permet de piloter toutes les tondeuses qui ont été déployées. Chaque
 tondeuse a deux lignes la concernant :
-* la première ligne donne la position initiale de la tondeuse, ainsi que son orientation. La
+  * la première ligne donne la position initiale de la tondeuse, ainsi que son orientation. La
 position et l'orientation sont fournies sous la forme de 2 chiffres et une lettre, séparés
 par un espace
-* la seconde ligne est une série d'instructions ordonnant à la tondeuse d'explorer la
+  * la seconde ligne est une série d'instructions ordonnant à la tondeuse d'explorer la
 pelouse. Les instructions sont une suite de caractères sans espaces.
 
  #### /!\  A noter que chacune des tondeuses se déplace de façon séquentielle et non simultanée, ce qui signifie que la deuxième tondeuse ne bouge que lorsque la première a exécuté INTEGRALEMENT sa série d'instructions.  /!\ 
