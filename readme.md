@@ -36,7 +36,7 @@ par un espace
 * la seconde ligne est une série d'instructions ordonnant à la tondeuse d'explorer la
 pelouse. Les instructions sont une suite de caractères sans espaces.
 
- #### /!\  A noter que chacune des tondeuses se déplace de façon séquentielle, ce qui signifie que la deuxième tondeuse ne bouge que lorsque la première a exécuté INTEGRALEMENT sa série d'instructions.  /!\ 
+ #### /!\  A noter que chacune des tondeuses se déplace de façon séquentielle et non simultanée, ce qui signifie que la deuxième tondeuse ne bouge que lorsque la première a exécuté INTEGRALEMENT sa série d'instructions.  /!\ 
 
 ## Exemple
 Voici un exemple d'usage du script: 
