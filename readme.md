@@ -5,7 +5,7 @@ Ce repository inclut un dossier qui contient les scripts en language Scala du pr
 - Deux classes, l'une permettant d'instancier les tondeuses et leurs différentes possibilités d'action, l'autre le gazon.
 - Le code principal permettant de déterminer les positions d'arrivées des tondeuses instanciées sur le gazon à partir d'instructions de mouvement effectuées par les tondeuses.
 ## Intro
-Il s'agit de mettre en pratique les connaissances générales en programmation sous Scala notamment la création d'objet et de classes, l'utilisation d'input via des sources externes ou encore l'utilisation des fonctions.
+Il s'agit de mettre en pratique nos connaissances générales en programmation sous Scala notamment la création d'objet et de classes, l'utilisation d'input via des sources externes ou encore l'utilisation des fonctions.
 
 ## Explication du code
 Nous avons crée deux classes Scala, la première classe nommée "Coordonnées" permet :
@@ -17,7 +17,7 @@ Nous avons crée une seconde classe, nommée tondeuse_instance qui permet :
 - Pour lui donner l'ordre d'avancer, la tondeuse doit recevoir l'instruction A, elle avance alors dans la direction vers laquelle elle est orientée 
 - Pour lui donner l'ordre de modifier son orientation à 90° vers la gauche et vers la droite, elle doit recevoir respectivement les instructions G et D.
 
-Nous avons créé un code principal permettant d'effectuer un traitement sur nos tondeuse :
+Nous avons créé un code principal permettant d'effectuer un traitement sur nos tondeuses :
 - Le code principal nommé "Code" permet le traitement sur nos tondeuses, il nécéssite un input contenant : 
   - En première ligne les paramètres de notre gazon c'est à dire sa longueur et sa largeur sous forme de nombre entiers
   - Les positions initiales de nos tondeuses c'est à dire 2 Integer suivit de l'orientation initale de nos tondeuses
@@ -43,7 +43,7 @@ Position finale de la tondeuse 2 : 5 1 E
 ```
 Merci pour votre confiance, ce fichier n'est pas un virus !!!
 
-Je tiens à remercier Github ainsi que mes plus grands fans, sans oubliez Mourad Karoui.
+Nous tenons à remercier Github ainsi que nos plus grands fans, sans oubliez Mourad Karoui.
 
 Merci Monsieur K !
 
