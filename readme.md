@@ -45,5 +45,5 @@ Merci pour votre confiance, ce fichier n'est pas un virus !!!
 
 Nous tenons à remercier Github ainsi que nos plus grands fans, sans oubliez Mourad Karoui.
 
-Merci Monsieur K !
+Merci Monsieur K ! N'oubliez pas le point bonus !
 
