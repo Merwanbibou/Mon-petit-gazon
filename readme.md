@@ -1,4 +1,4 @@
- # Projet Scala MoSEF 2019 - Amal Ilahiane & Merwan Amar Chelouah
+# Projet Scala MoSEF 2019 - Amal Ilahiane & Merwan Amar Chelouah
 
 
 Ce repository inclut un dossier qui contient les scripts en language Scala du projet, notamment :
