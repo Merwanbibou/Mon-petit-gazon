@@ -9,10 +9,10 @@ Il s'agit de mettre en pratique nos connaissances générales en programmation s
 
 ## Explication du code
 Nous avons crée deux classes Scala, la première classe nommée "Coordonnées" permet :
-- D'instancier notre environnement, c'est à dire notre gazon, cette classe prend en input deux variables Integer correspondant à la surface de notre pelouse, respectivement la longueur `crdX` et la largeur `crdY` ce qui forme un couple `(x,y)`
+- D'instancier notre environnement, c'est à dire notre gazon, cette classe prend en input deux variables Integer correspondant à la surface de notre pelouse, respectivement la longueur `crdX` et la largeur `crdY` ce qui forme un couple `(x,y)` de coordonnées cartésiennes. Un gazon est une réprésentation d'un plan cartésien dans notre exercice ludique.
 
 Nous avons crée une seconde classe, nommée tondeuse_instance qui permet :
-- D'instancier nos tondeuses, on peut instancier le nombre de tondeuses que l'on souhaite, c'est l'avantage des classes, il faut pour cela deux d'integer qui correspondent à sa position initiale sur le gazon ainsi que son orientation initiale ce qui permet de former un couple `(x,y)` de coordonnées
+- D'instancier nos tondeuses, on peut instancier le nombre de tondeuses que l'on souhaite, c'est l'avantage des classes, il faut pour cela deux d'integer qui correspondent à sa position initiale sur le gazon ainsi que son orientation initiale ce qui permet de former un couple `(x,y)` de coordonnées cartésiennes
 - De construire les possibilités de mouvement, notamment la possibilités de changer de direction (Gauche ou Droite) ou d'avancer (Avancer)
 - Pour lui donner l'ordre d'avancer, la tondeuse doit recevoir l'instruction `A`, elle avance alors dans la direction vers laquelle elle est orientée 
 - Pour lui donner l'ordre de modifier son orientation à 90° vers la gauche et vers la droite, elle doit recevoir respectivement les instructions `G` et `D`. Les orientations suivent l'écriture anglosaxonne  `(N,E,W,S)`
