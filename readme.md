@@ -4,6 +4,7 @@
 Ce repository inclut un dossier qui contient les scripts en language Scala du projet, notamment :
 - Deux classes, l'une permettant d'instancier les tondeuses et leurs différentes possibilités d'action, l'autre le gazon.
 - Le code principal permettant de déterminer les positions d'arrivées des tondeuses instanciées sur le gazon à partir d'instructions de mouvement effectuées par les tondeuses.
+
 Vous trouverez les scripts Scala dans le dossier `src`
 
 ## Introduction
