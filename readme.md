@@ -26,14 +26,18 @@ Nous avons créé un code principal permettant d'effectuer un traitement sur nos
 
 ## Exemple
 Voici un exemple d'usage du script: 
-```
+
 On entre comme input :
+```
 5 5
 1 2 N
 GAGAGAGAA
 3 3 E
 AADAADADDA
+```
+
 En executant le script principal, on obtient comme sortie :
+```
 Position finale de la tondeuse 1 : 1 3 N
 Position finale de la tondeuse 2 : 5 1 E
 ```
